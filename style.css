@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    
+    
+    
+    font-family: 'Poppins', sans-serif;;
+}
+.inicio{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.img_inicio{
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid silver;
+    box-shadow:  3px 3px 10px black;
+}
+.recuerdos {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.lin {
+    text-decoration: none;
+    color: rgb(139, 90, 90);
+    text-shadow: 2px 2px 20px slategrey;
+    padding-right: 20px;
+}
+.link{
+    display: flex;
+    color: white;
+    
+}
+.title{
+    color:rgb(139, 90, 90);
+    
+}
+.img_photo{
+    display: block; 
+    border-radius: 40%;
+    max-width: 300px;
+    height: 300px;
+}
+
+.photo{
+    width: 75%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 30px;
+    background-color: rgba(222, 235, 235, 0.747);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(141, 137, 137);
+    
+
+}
+.photo_text{
+    width: 180px;
+    padding-top: 40px;
+}
+.photo_title{
+    margin-bottom: 10px;
+}
+.photo_des{
+    border-bottom: 2px solid black;
+}
+
+
+.post{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.img_post{
+    width: 350px;
+    border-radius: 15px;
+}
+.post_text{
+    width: 150px;
+    margin-top: 90px;
+}
+.post_des {
+    border-bottom: 2px solid black;
+}
+.post_reverse{
+    flex-direction: row-reverse;
+}
+
+.final{
+    background-image: url(img/whitebaby.jpg);
+    height: 200px;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.end_img{
+    width: 300px;
+    
+}
+.end_link{
+    text-align: center;
+    padding-top: 95px;
+    
+}
+.end_text{
+    text-decoration: none;
+    font-size: 2rem;
+    color: aliceblue;
+    padding: 0 10px;
+}
+.end_text:hover{
+    color: black;
+    transition: all 0.3s ease;
+
+}
